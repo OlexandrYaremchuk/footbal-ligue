@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import League from "./League";
+
+import Home from './components/Home';
+
 import Login from "./components/Login";
+
 
 function App() {
   const [modal, setModal] = useState(false);
@@ -17,6 +21,10 @@ function App() {
 
   return (
     <div className="App">
+
+<League/>
+<Home/>
+
       <button
         onClick={() => {
           openModal();
@@ -26,6 +34,7 @@ function App() {
         {modal && <Login closeModal={closeModal} />}
       </button>
       <League />
+
     </div>
   );
 }
