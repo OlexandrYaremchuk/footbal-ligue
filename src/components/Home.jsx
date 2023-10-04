@@ -9,7 +9,7 @@ const Home = () => {
             <img src="https://img.depo.ua/745xX/Aug2018/422352.jpg"></img> 
             <br/>
             <button>Клік Клік</button>
-            
+            <p>Xa-xa</p>
   
 
         </div>
