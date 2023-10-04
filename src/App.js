@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import League from "./League";
+
 import Loading from './components/Loading';
 
 import Home from './components/Home';
 
 import Login from "./components/Login";
+
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
     <div className="App">
 
 <League/>
+
+
 <Home/>
 
       <button
@@ -35,6 +39,7 @@ function App() {
         {modal && <Login closeModal={closeModal} />}
       </button>
       <League />
+
 
     </div>
   );
