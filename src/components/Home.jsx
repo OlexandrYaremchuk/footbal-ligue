@@ -10,6 +10,7 @@ const Home = () => {
             <br/>
             <button>Клік Клік</button>
             <p>Xa-xa</p>
+            <p>Be be be</p>
   
 
         </div>
